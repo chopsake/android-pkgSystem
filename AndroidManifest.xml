@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.countableset.pkgsystem"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application 
+		android:name=".SystemInfo" 
+		android:icon="@drawable/launcher_icon" 
+		android:label="@string/app_name" android:debuggable="true">
+        <activity android:name=".PkgSystem"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Register" android:theme="@style/Theme.Custom" />
+        <activity android:name=".MainMenu" android:theme="@style/Theme.Custom" android:screenOrientation="portrait" />
+        <activity android:name=".Deliver" android:theme="@style/Theme.Custom" />
+        <activity android:name=".AddDelivery" android:theme="@style/Theme.Custom" />
+        <activity android:name=".WillDeliver" android:theme="@style/Theme.Custom" />
+        <activity android:name=".AddWillDeliver" android:theme="@style/Theme.Custom" />
+        <activity android:name=".Options" android:theme="@style/Theme.Custom" />
+        <activity android:name=".OptionsInfo" android:theme="@style/Theme.Custom" />
+        <activity android:name=".OptionsLocation" android:theme="@style/Theme.Custom" />
+        <activity android:name=".Friends" android:theme="@style/Theme.Custom" />
+        <activity android:name=".AddFriend" android:theme="@style/Theme.Custom" />
+        <activity android:name=".Pending" android:theme="@style/Theme.Custom" />
+
+    </application>
+    <uses-sdk android:minSdkVersion="7"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+</manifest> 

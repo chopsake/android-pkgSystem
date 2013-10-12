@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_separator">#423832</color>
+    <color name="actionbar_background_start">#423832</color>
+    <color name="actionbar_background_end">#423832</color>
+    <color name="actionbar_background_item_pressed_start">#423832</color>
+    <color name="actionbar_background_item_pressed_end">#423832</color>
+</resources> <!-- db5800 -->

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, PkgSystem!</string>
+    <string name="app_name">Pkg System</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="register">Not Registered?</string>
+    
+    <string name="title_bar">Trusted Package Delivery System</string>
+    <string name="title_bar_friends">Trusted Friends</string>
+    <string name="title_bar_addfriend">Add a Trusted Friend</string>
+    <string name="title_bar_willdeliver">Add a Deliver-To Friend</string>
+    <string name="title_bar_deliver">Deliver Package</string>
+    <string name="title_bar_adddeliver">Send Package To User</string>
+    
+    <string name="deliver">Deliver</string>
+    <string name="send">Send</string>
+    <string name="pending">Pending</string>
+    <string name="friends">Friends</string>
+    <string name="options">Options</string>
+    
+    <string name="friends_menu_header">Trusted Friend Options</string>
+    <string name="friends_menu_delete">Delete Friend</string>
+    <string name="friends_menu_blacklist">Blacklist Friend</string>
+    <string name="friends_menu_add">Add Trusted Friend</string>
+
+    <string name="WillDeliver_menu_header">Deliver-To Friends Options</string>
+    <string name="WillDeliver_menu_delete">Delete Deliver-To Friend</string>
+    <string name="WillDeliver_menu">Deliver-To Friends</string>
+    <string name="WillDeliver">Deliver-To Friends</string>
+    <string name="WillDeliver_add">Add Deliver-To Friend</string>
+ 
+    <string name="delivered">Mark Package Delivered</string>
+    <string name="showmap">Display Map</string>
+    <string name="deliver_menu_header">Confirm Delivery</string>
+    <string name="delivery_menu_add_direct">Send Package Direct</string>
+    <string name="delivery_menu_add_route">Send Package Routing</string>
+    
+    <string name="location">Update Location</string>
+    <string name="personal_info">Update Name</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="status">Status (Checked = Free)</string>
+    
+    <string name="cancel">Cancel</string>
+
+    <string name="pending_menu_header">Pending Sent Packages</string>
+    <string name="pending_menu_detail">Pending Package Detail</string>
+    <string name="pending_menu">Map Package Location</string>
+    <string name="pending_menu_blacklist">Blacklist Current Location</string>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:gravity="center_vertical"
+	android:background="#bec4bc">
+
+	<!-- First Name Text and Button -->
+	<TextView 
+		android:id="@+id/first_name_text" 
+		android:text="@string/first_name"
+		android:textColor="#423832"
+		android:layout_centerHorizontal="true" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+
+	<EditText 
+		android:id="@+id/txt_fname"
+		android:layout_height="wrap_content" 
+		android:layout_width="350px"
+		android:layout_centerHorizontal="true" 
+		android:layout_below="@+id/first_name_text"
+		android:singleLine="true" />
+	<!-- End First Name --> 
+
+	<!-- Last Name Text and Button -->
+	<TextView 
+		android:id="@+id/last_name_text" 
+		android:text="@string/last_name"
+		android:textColor="#423832"
+		android:layout_centerHorizontal="true" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_below="@+id/txt_fname" />
+
+	<EditText 
+		android:id="@+id/txt_lname" 
+		android:layout_height="wrap_content" 
+		android:layout_width="350px"
+		android:layout_centerHorizontal="true" 
+		android:layout_below="@+id/last_name_text"
+		android:singleLine="true" />
+	<!-- End Last Name -->
+	
+	<!-- Email Address Text and Button -->
+	<TextView 
+		android:id="@+id/email_text" 
+		android:text="@string/email"
+		android:textColor="#423832"
+		android:layout_centerHorizontal="true" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_below="@+id/txt_lname" />
+
+	<EditText 
+		android:id="@+id/txt_email" 
+		android:layout_height="wrap_content" 
+		android:layout_width="350px"
+		android:layout_centerHorizontal="true" 
+		android:layout_below="@+id/email_text"
+		android:singleLine="true" />
+	<!-- End Last Name -->
+	
+	<!-- Password -->
+	<TextView 
+		android:id="@+id/password_text" 
+		android:text="@string/password"
+		android:textColor="#423832"
+		android:layout_centerHorizontal="true" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_below="@+id/txt_email" />
+
+	<EditText 
+		android:id="@+id/txt_password" 
+		android:password="true"
+		android:layout_height="wrap_content" 
+		android:layout_width="350px"
+		android:layout_centerHorizontal="true" 
+		android:layout_below="@+id/password_text"
+		android:singleLine="true" />
+	<!-- End Password -->
+
+	<!-- Submit Button -->
+	<Button 
+		android:id="@+id/submit_button" 
+		android:text="Submit"
+		android:layout_width="200dip" 
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true" 
+		android:layout_below="@+id/txt_password" />
+	<!-- End Submit Button -->
+	
+</RelativeLayout>

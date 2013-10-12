@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <com.markupartist.android.widget.ActionBar
+	    android:id="@+id/actionbar"
+	    style="@style/ActionBar"
+        />
+
+<TableLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#bec4bc"
+    android:stretchColumns="*"
+    android:gravity="center" >
+   
+   
+    
+    <TableRow>
+    	<Button
+        android:id="@+id/button_send"
+        android:layout_width="150px"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:drawableTop="@drawable/send_package"
+        android:background="@android:color/transparent"
+        android:text="@string/send"
+		android:gravity="center"
+		android:layout_gravity="center"
+         />
+         
+         <Button
+        android:id="@+id/button_deliver"
+        android:layout_width="150px"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:drawableTop="@drawable/deliver_package"
+        android:background="@android:color/transparent"
+        android:text="@string/deliver"
+        android:gravity="center"
+		android:layout_gravity="center"
+         />
+	</TableRow>
+    	
+    <TableRow>
+    	<Button
+        android:id="@+id/button_pending"
+        android:layout_width="150px"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:drawableTop="@drawable/pending_package"
+        android:background="@android:color/transparent"
+        android:text="@string/pending"
+		android:gravity="center"
+		android:layout_gravity="center"
+         />
+         
+         <Button
+        android:id="@+id/button_friends"
+        android:layout_width="150px"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:drawableTop="@drawable/friends"
+        android:background="@android:color/transparent"
+        android:text="@string/friends"
+		android:gravity="center"
+		android:layout_gravity="center"
+         />
+    </TableRow>
+    
+    	<Button
+        android:id="@+id/button_options"
+        android:layout_width="150px"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:drawableTop="@drawable/options"
+        android:background="@android:color/transparent"
+        android:text="@string/options"
+		android:gravity="center"
+		android:layout_gravity="center"
+         />
+         
+</TableLayout>
+
+</LinearLayout>
